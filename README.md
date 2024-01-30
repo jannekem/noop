@@ -10,15 +10,15 @@ Start using Noop today and experience the peace of mind that comes with a truly 
 
 ## Installation
 
-Noop is available as a pre-built binary for Linux, macOS, and Windows. You can download the latest release for your system from the [GitHub releases page](https://github.com/jannekem/noop/releases). The binary is a single executable with no dependencies and can be renamed to anything you like.
+Noop is available as a pre-built binary for Linux, macOS, and Windows. You can download the latest release suitable for your system from the [GitHub releases page](https://github.com/jannekem/noop/releases). The binary is a standalone executable with no dependencies and can be renamed to your preference.
 
-You can also build Noop from source using the Rust compiler. Copy the source code from this repository and run `cargo build --release` to build the binary for your system. The binary will be available in the `target/release` directory.
+Alternatively, you can build Noop from the source using the Rust compiler. The easiest way to install Rust is by using [rustup](https://rustup.rs/). Clone or download the source code from this repository and run `cargo build --release` to build the binary for your system. The resulting binary will be located in the `target/release` directory.
 
-If you need Noop system-wide, you can copy the binary to a directory in your system path.
+If you require Noop to be available system-wide, you can copy the binary to a directory included in your system path.
 
 ## Usage
 
-Using Noop is as simple as it gets. Once you have the binary installed on your system, you can call it from the command line with any arguments. Here's an example:
+Using Noop is as simple as it gets. Once you've obtained the binary, you can call it from the command line with any arguments. Here's an example:
 
 ```powershell
 .\noop.exe arg1 arg2 arg3
