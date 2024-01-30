@@ -14,14 +14,18 @@ Noop is available as a pre-built binary for Linux, macOS, and Windows. You can d
 
 Alternatively, you can build Noop from the source using the Rust compiler. The easiest way to install Rust is by using [rustup](https://rustup.rs/). Clone or download the source code from this repository and run `cargo build --release` to build the binary for your system. The resulting binary will be located in the `target/release` directory.
 
-If you require Noop to be available system-wide, you can copy the binary to a directory included in your system path.
+If you require Noop to be available system-wide, you can copy the binary to a directory included in your system path. Rust's Cargo package manager also provides a convenient way to install the binary globally:
+
+```
+cargo install --git https://github.com/jannekem/noop
+```
 
 ## Usage
 
 Using Noop is as simple as it gets. Once you've obtained the binary, you can call it from the command line with any arguments. Here's an example:
 
 ```powershell
-.\noop.exe arg1 arg2 arg3
+noop.exe arg1 arg2 arg3
 ```
 
 ## License
