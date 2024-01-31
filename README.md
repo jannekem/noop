@@ -1,4 +1,4 @@
-# Noop: Your Go-To No-Operation Application
+# Noop: No-op as an application
 
 Welcome to Noop, a versatile and lightweight no-operation executable designed to do nothing. Noop is built to accept any arguments you throw at it, and it will always exit with success.
 
@@ -27,6 +27,10 @@ Using Noop is as simple as it gets. Once you've obtained the binary, you can cal
 ```powershell
 noop.exe arg1 arg2 arg3
 ```
+
+## Similar projects
+
+- [nop](https://github.com/myfreeer/nop): a windows exe that does nothing without black cmd window or anything else
 
 ## License
 
