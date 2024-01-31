@@ -1,4 +1,7 @@
 # Noop: No-op as an application
+![GitHub Release](https://img.shields.io/github/v/release/jannekem/noop)
+![GitHub License](https://img.shields.io/github/license/jannekem/noop)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/jannekem/noop/total)
 
 Welcome to Noop, a versatile and lightweight no-operation executable designed to do nothing. Noop is built to accept any arguments you throw at it, and it will always exit with success.
 
